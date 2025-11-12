@@ -1,0 +1,178 @@
+{
+  "contact": {
+    "email": "dylan.sahota@mail.utoronto.ca",
+    "phone": "+1 647-233-9051",
+    "location": "Toronto, ON",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/in/dylan-sahota"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/DAS9051"
+      }
+    ]
+  },
+  "about": {
+    "headline": "Infrastructure Architect & Machine Learning Developer",
+    "paragraphs": [
+      "I design resilient cloud automation and intelligent forecasting systems that help teams deploy faster and make smarter decisions. From AWS infrastructure to quantitative modeling, my work blends scalability with data-driven insights.",
+      "Currently, I support SamaritanApps as an Infrastructure Architect while studying Computer Science (Specialist) and Mathematics (Major) at the University of Toronto. I lead cross-functional teams, streamline DevOps workflows, and turn research into production-ready tools."
+    ]
+  },
+  "education": {
+    "institution": "University of Toronto",
+    "location": "Toronto, ON",
+    "degree": "Bachelor of Science (BSc), Computer Science (Specialist) & Mathematics (Major)",
+    "range": {
+      "start": "Sep. 2024",
+      "end": "Dec. 2027",
+      "label": "Sep. 2024 – Dec. 2027"
+    },
+    "highlights": [
+      "Coursework includes algorithms, statistical learning, and advanced calculus.",
+      "Active contributor to Quant, AI, & Fintech Society (QAIFS)."
+    ]
+  },
+  "experience": [
+    {
+      "id": "samaritanapps-infrastructure-architect",
+      "title": "Infrastructure Architect",
+      "organization": "SamaritanApps",
+      "location": "Remote",
+      "range": {
+        "start": "Feb. 2025",
+        "end": "Present"
+      },
+      "summary": "Design and manage AWS infrastructure with a focus on automation, scalability, and strong security practices.",
+      "achievements": [
+        "Built Infrastructure-as-a-Service automation pipelines to minimize manual setup time.",
+        "Led migration of services across S3, EC2, and IAM with hardened access policies."
+      ],
+      "tags": ["AWS", "IaaS", "Automation", "DevOps"]
+    },
+    {
+      "id": "qaifs-vp-web",
+      "title": "Vice President, Web Development",
+      "organization": "Quant, AI, & Fintech Society (QAIFS)",
+      "location": "Toronto, ON",
+      "range": {
+        "start": "Nov. 2024",
+        "end": "Present"
+      },
+      "summary": "Direct the buildout of member-facing portals and digital tools used across a 200+ student organization.",
+      "achievements": [
+        "Led development of member portal and digital tools supporting student-led research and events.",
+        "Introduced CI/CD pipelines, cutting deployment time from days to hours."
+      ],
+      "tags": ["Leadership", "Web Development", "CI/CD"]
+    },
+    {
+      "id": "qaifs-ml-developer",
+      "title": "Machine Learning Developer & Researcher",
+      "organization": "Quant, AI, & Fintech Society (QAIFS)",
+      "location": "Toronto, ON",
+      "range": {
+        "start": "Nov. 2024",
+        "end": "Present"
+      },
+      "summary": "Prototype and evaluate machine learning models for financial forecasting and quantitative research.",
+      "achievements": [
+        "Developed ML models for financial forecasting and quantitative research initiatives.",
+        "Collaborated with cross-functional teams to communicate findings to the executive board."
+      ],
+      "tags": ["Machine Learning", "Financial Forecasting", "Research"]
+    },
+    {
+      "id": "reena-group-software-developer",
+      "title": "Software Developer",
+      "organization": "Reena Group",
+      "location": "Mississauga, ON",
+      "range": {
+        "start": "Jul. 2023",
+        "end": "Aug. 2023"
+      },
+      "summary": "Built internal tooling to manage oversight of access rights and track permissions across stakeholders.",
+      "achievements": [
+        "Developed SQL database to centralize access rights and track permissions.",
+        "Built Flask-based admin panel to visualize logs and adjust access controls."
+      ],
+      "tags": ["SQL", "Flask", "RBAC"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "portfolio-optimization",
+      "name": "Portfolio Optimization with LSTM Forecasting",
+      "timeframe": "2025",
+      "problem": "Investors need forecasts and optimization tools that adapt quickly to market signals without sacrificing accuracy.",
+      "solution": "Implemented an LSTM neural network in PyTorch to forecast stock returns, integrated the results into a mean-variance optimization pipeline, and accelerated training through CUDA.",
+      "impact": "Reduced training runtime by up to 4× compared to CPU, evaluated strategies with Sharpe ratio and expected return, and visualized efficient frontier allocations.",
+      "tech": ["Python", "PyTorch", "NumPy", "SciPy", "Matplotlib", "CUDA"]
+    },
+    {
+      "id": "chess-tournament-platform",
+      "name": "Chess Tournament Platform",
+      "timeframe": "2023 – 2024",
+      "problem": "Coordinating chess tournaments requires seamless scheduling, pairing, and engagement tools for participants.",
+      "solution": "Built a full-stack application with React, Tailwind CSS, Express.js/Node.js, and PocketBase to manage tournaments, track results, and deliver real-time notifications.",
+      "impact": "Delivered an intuitive interface with automated pairing, admin notifications, and responsive design across devices.",
+      "tech": ["React", "Tailwind CSS", "Express.js", "Node.js", "PocketBase", "Python"]
+    },
+    {
+      "id": "user-management-application",
+      "name": "User Management Application",
+      "timeframe": "2024",
+      "problem": "Reena Group needed a streamlined way to manage user roles, status, and permissions across teams.",
+      "solution": "Developed a three-tier desktop system in Python leveraging SQLite and decorators to enforce role-based access control and performance logging.",
+      "impact": "Improved administrative efficiency with pagination, search, and clean separation between UI, logic, and data layers.",
+      "tech": ["Python", "SQLite", "JavaScript"]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "comptia-linux-plus",
+      "name": "CompTIA Linux+ (Code: XK0-005)",
+      "issuer": "CompTIA",
+      "issued": "Issued Jan 2023"
+    },
+    {
+      "id": "comptia-security-plus",
+      "name": "CompTIA Security+ (Code: SY0-601)",
+      "issuer": "CompTIA",
+      "issued": "Issued Sep 2023"
+    },
+    {
+      "id": "google-data-analytics",
+      "name": "Google Data Analytics Certificate",
+      "issuer": "Google",
+      "issued": "Issued Oct 2024"
+    }
+  ],
+  "skills": [
+    {
+      "label": "Languages",
+      "items": ["Python", "C/C++", "SQL", "Java", "HTML/CSS", "JavaScript", "Bash", "Lua", "LaTeX"]
+    },
+    {
+      "label": "Frameworks",
+      "items": ["PyTorch", "Flask", "React", "Express.js/Node.js", "PyGame", "Tkinter", "Unity", "Discord.py"]
+    },
+    {
+      "label": "Tools & Technology",
+      "items": ["Git", "Docker", "VMware", "Proxmox", "Linux", "AWS (EC2, S3, IAM)", "Terraform (basic)", "Raspberry Pi", "Jupyter", "VS Code", "IntelliJ", "PyCharm"]
+    },
+    {
+      "label": "Libraries",
+      "items": ["NumPy", "pandas", "SciPy", "OpenCV", "Requests", "Matplotlib", "Plotly"]
+    }
+  ],
+  "meta": {
+    "tagline": "Automation, cloud infrastructure, and data-driven insights for resilient systems.",
+    "location": "Toronto, ON",
+    "availability": "Open to internships and collaborative projects in infrastructure, ML, or fintech.",
+    "lastUpdated": "2025-11-09"
+  }
+}
+
